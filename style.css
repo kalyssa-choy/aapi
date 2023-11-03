@@ -1,0 +1,29 @@
+h1{
+    text-align: center;
+    margin: 100px auto;
+}
+/* div{
+    border: solid black 1px;
+} */
+#columns div{
+    display: inline-block;
+    width: 49.6%;
+    text-align: center;
+    background: rgb(241, 249, 255);
+    box-shadow: 4px 4px 60px 5px;
+}
+#columns {
+    width: 100rem;
+    margin: 20px auto;
+}
+#columns input{
+    width: 80%;
+    height: 60%;
+    border: none;
+    background: #ebf3f6;
+}
+#addStory{
+    padding: 10px;
+    border: none;
+    border-radius: 10px;;
+}
