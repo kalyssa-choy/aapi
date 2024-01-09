@@ -1,20 +1,35 @@
 h1{
     text-align: center;
     margin: 100px auto;
+    background-color: #ebf3f6;
+    padding: 30px;
+}
+h2{
+    padding:30px;
 }
 /* div{
     border: solid black 1px;
 } */
 #columns div{
-    display: inline-block;
-    width: 49.6%;
+    /* display: inline-block; */
     text-align: center;
     background: rgb(241, 249, 255);
-    box-shadow: 4px 4px 60px 5px;
+    width: 45%;
+}
+#left{
+    height: 100%;
+    width: 49.6%;
+}
+#right{
+    height: 100%;
+    width: 49.6%;
 }
 #columns {
     width: 100rem;
+    height: 50rem;
     margin: 20px auto;
+    display: flex;
+    justify-content: space-around;
 }
 #columns input{
     width: 80%;
@@ -23,7 +38,18 @@ h1{
     background: #ebf3f6;
 }
 #addStory{
-    padding: 10px;
     border: none;
-    border-radius: 10px;;
+    border-radius: 10px;
+    display: block;
+    padding: 15px 30px;
+    margin: 10px 0px 0px 550px;
+    background: #ebf3f6;
+}
+#addStory:active{
+    background-color: #d7e0e3;
+}
+#description{
+    width: 500px;
+    margin: 0px auto 20px;
+    text-align: left;
 }
