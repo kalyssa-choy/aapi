@@ -11,7 +11,7 @@ h2{
     border: solid black 1px;
 } */
 #columns div{
-    /* display: inline-block; */
+    /* need to change the name or else it is messing up the add stories part */
     text-align: center;
     background: rgb(241, 249, 255);
     width: 45%;
@@ -21,7 +21,6 @@ h2{
     width: 49.6%;
 }
 #right{
-    height: 100%;
     width: 49.6%;
 }
 #columns {
@@ -31,11 +30,19 @@ h2{
     display: flex;
     justify-content: space-around;
 }
-#columns input{
+#userStoryTitle{
+    background-color: #ebf3f6;
+    width: 80%;
+    border: none;
+    margin: 10px auto;
+    padding: 10px;
+}
+#userStory{
     width: 80%;
     height: 60%;
     border: none;
     background: #ebf3f6;
+    padding: 10px;
 }
 #addStory{
     border: none;
@@ -52,4 +59,7 @@ h2{
     width: 500px;
     margin: 0px auto 20px;
     text-align: left;
+}
+div{
+    border: solid black 1px;
 }
